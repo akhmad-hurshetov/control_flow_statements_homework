@@ -13,4 +13,17 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    d=0
+    if a>0:
+        d+=1
+    if b>0:
+        d+=1
+    if c>0:
+        d+=1
+
+    if d>1:
+        return 'There are a lot of positive numbers'
+    else:
+        return 'There are a lot of negative numbers'
+        
+    return d
